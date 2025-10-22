@@ -1,9 +1,8 @@
 # test
 ## sample
 
-# Citing
----
-
+## Citing
+If you use this data in a publication please cite the following [paper](https://dl.acm.org/doi/full/10.1145/3731763.3731797):
 ```
 @inproceedings{10.1145/3731763.3731797,
     author = {Sangawa, Gakuto and Masuda, Satoshi},
@@ -23,3 +22,4 @@
     series = {ICIIT '25}
 }
 ```
+
