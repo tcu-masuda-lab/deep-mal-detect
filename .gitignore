@@ -1,6 +1,7 @@
 .DS_Store
 *~
 *.exe
-/ignore
-/__pycache__
+*.pyc
+ignore/
+__pycache__/
 /.python-version
