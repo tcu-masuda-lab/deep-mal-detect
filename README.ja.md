@@ -12,16 +12,16 @@
   DeepMalDetect - DNN-Based Malware Detection.
 </h2>
 
-このリポジトリでは下記の論文で作成したモデルを公開しています。モデルの作成には[elastic/ember](https://github.com/elastic/ember)で公開されて`ember_dataset_2018`を使用しています。このDNNを用いたマルウェア検出モデルはハイパーパラメーターチューニングを通じて精度を向上させています。
+このリポジトリでは下記の論文で作成したモデルを公開しています。モデルの作成には[elastic/ember](https://github.com/elastic/ember)で公開されている`ember_dataset_2018`を使用しています。このDNNを用いたマルウェア検出モデルはハイパーパラメーターチューニングを通じて精度を向上させています。
 
-モデルおよび実験に関する詳細はこちらの論文をご覧ください：
+モデルや実験に関する詳細はこちらの論文をご覧ください：
 <br>
 https://doi.org/10.1145/3731763.3731797
 
 ## 特徴
 このリポジトリを使用すると、精度の高いDNNベースのマルウェア検出モデルを使用した実験を再現できます。精度の高さは正解率や再現率を用いて評価されており、[先行研究](https://www.mecs-press.org/ijcnis/ijcnis-v14-n2/IJCNIS-V14-N2-2.pdf)で示すモデルと同一のエポック数でありながら高い性能を示しています。
 
-研究者は本リポジトリで公開されているモデルを独自の研究における比較対象として用いることが出来ます。
+研究者は本リポジトリで公開されているモデルを研究の比較対象として用いることが出来ます。
 
 ## インストール方法
 
@@ -47,7 +47,7 @@ python3 -m venv .venv
 Set-ExecutionPolicy -ExecutionPolicy RemoteSigned -Scope CurrentUser
 ```
 
-### 環境を有効化
+### 仮想環境を有効化
 
 ```
 .venv\Scripts\activate
