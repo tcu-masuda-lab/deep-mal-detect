@@ -4,7 +4,7 @@
 
 <div align="center">
   <a href="https://github.com/tcu-masuda-lab/test">
-    <img alt="deepmaldetect" src="./resources/logo.png" width="350">
+    <img alt="deepmaldetect" src="./resources/logo.png" width="300">
   </a>
 </div>
 
