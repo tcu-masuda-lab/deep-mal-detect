@@ -1,7 +1,7 @@
-import detector
+import deepmaldetect as dmd
 
 dest = "sample.exe"
-pe_data = open(dest, "rb").read()
-pred = detector.predict(pe_data) > 0.5
+raw_data = open(dest, "rb").read()
+pred = dmd.predict(raw_data) > 0.5
 
 print(f"{dest}: {pred}")
