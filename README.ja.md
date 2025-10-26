@@ -66,7 +66,7 @@ pip install -r requirements.txt
 ```
 
 ## 使用方法
-```detector.predict```は任意のPE ファイルに対して予測を行うことができます。この関数は0~1の値を出力するため、0.5と比較することで、マルウェアか否か(True or False)の判断することが出来ます。
+```predict```は任意のPE ファイルに対して予測を行うことができます。この関数は0~1の値を出力するため、0.5と比較することで、マルウェアか否か(True or False)の判断することが出来ます。
 ```python
 import deepmaldetect as dmd
 dest = "sample.exe"
