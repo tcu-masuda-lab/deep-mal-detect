@@ -16,6 +16,8 @@
 
 モデルや実験に関する詳細はこちらの論文をご覧ください：
 <br>
+***Parallel-processed Hyperparameter Tuning for Higher Accuracy of Malware Detection***
+<br>
 https://doi.org/10.1145/3731763.3731797
 
 ## 特徴
