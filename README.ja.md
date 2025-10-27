@@ -12,20 +12,9 @@
   DeepMalDetect - DNN-Based Malware Detection.
 </h2>
 
-<div align="left">
-  <a href="https://opensource.org/licenses/MIT">
-    <img src="https://img.shields.io/badge/license-MIT-green.svg" alt="MIT License">
-  </a>
-
-
-  <a href="https://www.gnu.org/licenses/agpl-3.0">
-    <img src="https://img.shields.io/badge/license-AGPL%20v3-blue.svg" alt="AGPL v3 License">
-  </a>
-
-  <a>
-    <img src="https://img.shields.io/badge/PyTorch-%23EE4C2C.svg?&style=for-the-badge&logo=pytorch&logoColor=white" alt="PyTorch">
-  </a>
-</div>
+[![License: MIT](https://img.shields.io/badge/license-MIT-green.svg)](https://opensource.org/licenses/MIT)
+[![License: AGPL v3](https://img.shields.io/badge/license-AGPL%20v3-blue.svg)](https://www.gnu.org/licenses/agpl-3.0)
+![PyTorch](https://img.shields.io/badge/PyTorch-%23EE4C2C.svg?&style=for-the-badge&logo=pytorch&logoColor=white)
 
 このリポジトリでは下記の論文で示す実験内で作成したモデルを公開しています。モデルの作成には[elastic/ember](https://github.com/elastic/ember)で公開されている`ember_dataset_2018`を使用しています。このDNNを用いたマルウェア検出モデルはハイパーパラメーターチューニングを通じて精度を向上させています。
 
