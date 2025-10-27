@@ -19,9 +19,7 @@
 
 モデルや実験に関する詳細はこちらの論文をご覧ください：
 <br>
-***Parallel-processed Hyperparameter Tuning for Higher Accuracy of Malware Detection***
-<br>
-https://doi.org/10.1145/3731763.3731797
+[***Parallel-processed Hyperparameter Tuning for Higher Accuracy of Malware Detection***](https://doi.org/10.1145/3731763.3731797)
 
 ## ライセンス
 このプロジェクトには、GNU Affero General Public License バージョン 3 (AGPL‑v3) のもとでライセンスされた[elastic/ember](https://github.com/elastic/ember)リポジトリのコードが一部含まれています。AGPL‑v3 のライセンス条件については、LICENSE ファイルを参照してください。
